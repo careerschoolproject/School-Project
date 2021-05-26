@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project</title>
+		<style>
+			body {
+				background-image:url('2201532.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+  				background-size: 100% 100%;
+				}
+			.image {
+				padding-bottom: 1%;
+
+			}
+			.download {
+				text-align: center;
+
+			}
+			.header {
+				font-size: 350%;
+				color: white;
+				background-color: black;
+				text-align: center;
+				font-family: Verdana, sans-serif;
+			}
+			.submit {
+				padding-top: 2%;
+			}
+			.useless {
+				font-size: .000001px;
+			}
+			.navbar {
+			  font-family: New;
+			  overflow: hidden;
+			  background-color: #333;
+			}
+
+			.navbar a {
+			  float: left;
+			  font-size: 16px;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-family: New;
+			}
+
+			.dropdown {
+			  float: left;
+			  text-align: left
+			  overflow: hidden;
+			  font-family: New;
+			  font-size: 15%;
+			}
+
+			.dropdown .dropbtn {
+			  cursor: pointer;
+			  font-size: 16px;  
+			  border: none;
+			  outline: none;
+			  color: white;
+			  padding: 14px 16px;
+			  background-color: inherit;
+			  margin: 0;
+			  font-family: New;
+			  font-size: 20px;
+			}
+
+
+
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  min-width: 160px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			  font-family: New;
+			}
+
+			.dropdown-content a {
+			  float: none;
+			  color: black;
+			  text-decoration: none;
+			  display: block;
+			  text-align: left;
+			  font-family: New;
+			}
+
+			.dropdown-content a:hover {
+			  background-color: #ddd;
+			}
+
+			.show {
+			  display: block;
+			  font-family: New;
+			}
+			
+			.maintext {
+				color: white;
+				font-size: 40px;
+				background-color: black;
+				font-family: Verdana, sans-serif;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<!--  bar at top of screen -->
+		<div class="navbar">
+		  		<div class="dropdown">
+				  	<button class="dropbtn" onclick="window.location.href= 'template.html';" target="_blank"> Home </button>
+					<button class="dropbtn" onclick="window.location.href= '3dgraphics.html';" target="_blank"> 3D Graphics Developer Jobs </button>
+					<button class="dropbtn" onclick="window.location.href= 'security.html';" target="_blank"> Security Engineering Jobs </button>
+					<button class="dropbtn" onclick="dontalert()"> Contact Me </button>
+					<i class="fa fa-caret-down"></i>
+					
+
+				</div>
+		</div>
+		<!-- header "software engineer" -->
+		<h1 class="header"> Software Engineer </h1>
+		<!--Main body/essay -->
+		<div class="maintext">
+			<p>			
+				<b>
+				My job was a software engineer.  I focused on two different subsets of software engineer, a 3D Graphics Designer and a security engineer/white hat hacker.
+
+				An important form of communication for a Software Engineer/Penetration Tester is comments in code, and while that may seem like a stretch, there are some important reasons.  First is that code can be extremely complicated, even to the person that made it.  This makes it very important to leave notes or comments in so that if you’re working with someone else or someone else may need to look through this the code in the future, as it saves a lot of time figuring out what the code does.
+				There are a lot of different kinds of software that someone might want to develop.  The two that I focused on in my research were penetration testing, also known as a security engineer or white hat hacking, and a 3d graphics developer.
+
+				You can find more information on both at the navbar on the top.
+				</b>
+			</p>
+
+		</div>
+
+
+	</body>
+
+	<script> 
+		//unused
+		function openSite(url){
+			var win = window.open(url);
+		}
+       //also unused for current purpose of website
+        function checkPassword(form) { 
+            var password1 = form.password1.value; 
+     		var input = password1.toLowerCase();
+            if (input == 'bruh') {
+               	alert("Password Match: Question Complete.");
+                openSite("index1.html");
+       		}
+       	}
+       	//please dont contact me alert
+       	function dontalert(){
+       		alert("please dont");
+       	}
+
+    </script> 
+
+
+    
+</html>
