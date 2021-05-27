@@ -9,6 +9,11 @@
 				background-attachment: fixed;
   				background-size: 100% 100%;
 				}
+			/*This is an example of a comment */
+			/*These can be used to mark what certain bits of code do, as it isn't always immediately obvious.   */
+			/*This is important in communicating with other programmers, because if code can be confusing to the 
+			person that wrote it that it can be espcially confusing to others. */
+			/*Below are some comments that either describe what part of the page it controls or what it does */
 			.image {
 				padding-bottom: 1%;
 
@@ -112,7 +117,7 @@
 		<!--  bar at top of screen -->
 		<div class="navbar">
 		  		<div class="dropdown">
-				  	<button class="dropbtn" onclick="window.location.href= 'template.html';" target="_blank"> Home </button>
+				  	<button class="dropbtn" onclick="window.location.href= 'index.html';" target="_blank"> Home </button>
 					<button class="dropbtn" onclick="window.location.href= '3dgraphics.html';" target="_blank"> 3D Graphics Developer Jobs </button>
 					<button class="dropbtn" onclick="window.location.href= 'security.html';" target="_blank"> Security Engineering Jobs </button>
 					<button class="dropbtn" onclick="dontalert()"> Contact Me </button>
@@ -147,15 +152,8 @@
 		function openSite(url){
 			var win = window.open(url);
 		}
-       //also unused for current purpose of website
-        function checkPassword(form) { 
-            var password1 = form.password1.value; 
-     		var input = password1.toLowerCase();
-            if (input == 'bruh') {
-               	alert("Password Match: Question Complete.");
-                openSite("index1.html");
-       		}
-       	}
+
+       	
        	//please dont contact me alert
        	function dontalert(){
        		alert("please dont");
